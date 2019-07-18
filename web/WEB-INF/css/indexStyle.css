@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../image/background_website.jpg");
+    background-attachment: fixed;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkolivegreen;
+}
+
+#container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+#up_part_container {
+    position: relative;
+    margin-top: 10px;
+    background-image: url("../image/up_bottom.png");
+    width: 1500px;
+    height: 130px;
+}
+
+img.logo {
+    position: absolute;
+    border: 0;
+    height: 110px;
+    left: 40px;
+    top: 10px;
+}
+
+#main_title {
+    position: absolute;
+    height: 100px;
+    left: 160px;
+    bottom: 50px;
+}
+
+img.title {
+    height: 150px;
+}
+
+#social_logo {
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+
+#social_logo a img.soc_logo {
+    height: 90px;
+}
+
+#contant_box {
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    font-family: Trebuchet MS, Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+/*TOP MENU*/
+
+#top_menu {
+    position: absolute;
+    left: 200px;
+    bottom: 0px;
+    background-image: url("../image/gray_menu_background.png");
+}
+
+#menu_list li {
+    list-style: none;
+    float: left;
+    border-right: 1px solid blanchedalmond;
+}
+
+#menu_list li a {
+    background-image: url("../image/gray_menu_background.png");
+    height: 32px;
+    display: inline-block;
+    float: left;
+    padding: 0px 10px;
+    font-family: "Lucida Console", Monaco, monospace, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+#menu_list li a:hover, #menu_list li.first_element a {
+    background-image: url("../image/blue_menu_background.png");
+    color: blanchedalmond;
+}
+span.link {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
