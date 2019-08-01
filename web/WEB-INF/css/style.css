@@ -350,16 +350,6 @@ img {
     font-family: "Trebuchet MS", Monaco, monospace, sans-serif;
 }
 
-/*#le_bris_image {*/
-/*    text-align: left;*/
-/*    float: right;*/
-/*    width: 500px;*/
-/*    height: 320px;*/
-/*    margin-top: 40px;*/
-/*    margin-bottom: 10px;*/
-/*    padding: 10px 10px;*/
-/*}*/
-
 *.plane_image {
     text-align: left;
     float: right;
@@ -380,6 +370,24 @@ img {
 
 #military_planes_types li {
     margin-bottom: 10px;
+}
+
+#image_under_description {
+    width: 1500px;
+}
+
+*.airlines_logo {
+    float: right;
+    width: 230px;
+    padding: 10px 10px;
+}
+
+*.airlines_livery {
+    text-align: left;
+    float: right;
+    clear: right;
+    width: 400px;
+    padding: 10px 10px;
 }
 
 
